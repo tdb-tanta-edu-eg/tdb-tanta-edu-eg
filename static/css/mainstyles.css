@@ -1,0 +1,103 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+body{
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-right:0px;
+	margin-left:0px;
+	background:url(../images/index_bg.gif) left top repeat;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	}
+
+.banner{background:url(../images/banner_bg.gif) left top repeat-x}
+.bannerText{font-size:14px; color:#CCC; direction:rtl; padding-bottom:10px; padding-left:20px}
+.bannerText a{color:#F60; text-decoration:none; font-weight:bold}
+.bannerLogo{background:url(../images/banner_logo.gif) right top no-repeat; width:357px; height:81px;}
+.projLogo{background:url(../images/proj_logo.gif) left top no-repeat; width:208px; height:44px;}
+
+.formTopHeader{background:url(../images/form_top_bg.gif) left top repeat-x; color:#363636; font-size:18px; font-weight:bold; padding-right:5px}
+.formTopRight{background:url(../images/form_top_rc.gif) right top no-repeat}
+.formTopLeft{background:url(../images/form_top_lc.gif) left top no-repeat}
+.formBorderRight{background:url(../images/form_border_r.gif) right top repeat-y; border-bottom:1px solid #000;}
+.formBorderLeft{background:url(../images/form_border_l.gif) left top repeat-y; border-bottom:1px solid #000;}
+.formBody{background-color:#FFF; border-bottom:1px solid #000; direction:rtl;}
+
+.browesPath{background:url(../images/path_top_bg.gif) left top repeat-x; color:#666; font-size:16px;}
+.browesPathRight{background:url(../images/path_top_rc.gif) right top no-repeat}
+.browesPathLeft{background:url(../images/path_top_lc.gif) left top repeat-x}
+
+.menuTitle{border-bottom:1px solid #383838; color:#3c78b6; font-weight:bold; font-family:'Traditional Arabic', Andalus; font-size:20px}
+.menuTopLeft{background:url(../images/leftside_top_lc.gif) left top no-repeat}
+.menuTopRight{background:url(../images/leftside_top_rc.gif) right top no-repeat}
+.menuTopBG{background:url(../images/leftside_top_bg.gif) left top repeat-x}
+.menuBottomLeft{background:url(../images/leftside_bottom_lc.gif) left top no-repeat}
+.menuBottomRight{background:url(../images/leftside_bottom_rc.gif) right top no-repeat}
+.menuBottomBG{background:url(../images/leftside_bottom_bg.gif) left top repeat-x}
+.menuBorderRight{background:url(../images/leftside_border_r.gif) right top repeat-y}
+.menuBorderLeft{background:url(../images/leftside_border_l.gif) left top repeat-y}
+.menuBG{background:url(../images/leftside_bg.gif) left top repeat}
+
+.tableHeaderLeft{background:url(../images/table_header_rc.gif) right top no-repeat}
+.tableHeaderRight{background:url(../images/table_header_lc.gif) left top no-repeat}
+.tableHeaderFeild{background:url(../images/table_header_bg.gif) left top repeat-x; font-weight:bold; color:#f2f2f2; font-size:14px; border-right:1px solid #CCC; padding-right:5px;}
+.tableHeaderFeildTools{background:url(../images/table_header_bg.gif) left top repeat-x; font-weight:bold; color:#f2f2f2; font-size:14px}
+
+.tableRecordLeft{background:url(../images/table_border_r.gif) right top repeat-y; border-bottom:1px solid #CCC}
+.tableRecordRight{background:url(../images/table_border_l.gif) left top repeat-y; border-bottom:1px solid #CCC}
+
+.tableFooterLeft{background:url(../images/table_footer_rc.gif) right top no-repeat}
+.tableFooterRight{background:url(../images/table_footer_lc.gif) left top no-repeat}
+.tableFooterBG{background:url(../images/table_footer_bg.gif) left top repeat-x; font-weight:bold; font-size:16px}
+.tableFooterBG a{ color:#F90; text-decoration:none}
+.tableFooterBG a:hover{ color:#666; text-decoration:none}
+
+.pagerLink{color:#F90; text-decoration:none;}
+.pagerLink:hover{ color:#666; text-decoration:none;}
+.pagerText{color:#333; font-weight:bold;}
+
+.tableRecord{border-bottom:1px solid #CCC; border-right:1px solid #CCC; padding:1px 3px 1px 3px; font-weight:normal;}
+.tableRecordTools{border-bottom:1px solid #CCC; padding-top:2px}
+
+.tableRow{background-color:#FFF;}
+.tableRow:hover{background-color:#fefce3;}
+.tableRowSelected{background-color:Gray;}
+
+.pageFooter{border-top: 1px double #000; padding:10px; color:#999; font-weight:bold;}
+
+.acceptMessage{background:url(../images/accept.html) 5px 5px no-repeat #C6FBCA; border:1px solid #090; margin:5px; padding:5px 10px 5px 20px; text-align:right; direction:rtl; font-family:Verdana, Geneva, sans-serif; font-weight:bold; color:#050}
+
+.alertMessage{background:url(../images/warning.html) 5px 5px no-repeat #FF9; border:1px solid #FC0; margin:5px; padding:5px 10px 5px 20px; text-align:right; direction:rtl; font-family:Verdana, Geneva, sans-serif; font-weight:bold; color:#F30}
+
+.errorMessage{background:url(../images/error.html) 5px 5px no-repeat #FFD9DC; border:1px solid #F00; margin:5px; padding:5px 10px 5px 20px; text-align:right; direction:rtl; font-family:Verdana, Geneva, sans-serif; font-weight:bold; color:#C00}
+
+.failureNotification{ text-align:right; direction:rtl; font-family:Verdana, Geneva, sans-serif; font-weight:normal; color:#C00; display:none}
+
+.formLabel{font-weight:bold; text-align:left; padding-left:2px; border-left:1px solid #ccc}
+.formLabelRequired{font-weight:bold; text-align:left; padding-left:2px; border-left:1px solid #F00}
+
+.formChild{direction:rtl; border:1px solid #999;}
+.formButton{background: #ff9c00 url(../images/butBG.html) left bottom repeat-x; border:1px solid #3d8ce8; color:#FFF; padding:1px 7px 1px 7px; cu
+.formButtonSubmit{background: #ff9c00 url(../images/butBG.html) left bottom repeat-x; border:1px solid #3d8ce8; color:#FFF; padding:1px 7px 1px 7px; cursor:pointer; font-weight:bold;
+	height: 29px;
+}
+
+:bold;}
+
+.loginDiv{background:url(../images/loginpass.html) left 10px no-repeat; padding-top:10px; padding-left:50px;}
+
+.validatError{color:#C00; font-weight:bold; background:url(../images/error_validat.html) right top no-repeat; padding-right:16px;}
+.validatOk{color:#0C0; font-weight:bold; background:url(../images/ok_validat.html) right top no-repeat; padding-right:16px;}
+
+.pagerList{margin:0px}
+.pagerList a{color:#F90; text-decoration:none; cursor:pointer;}
+.pagerList a:hover{ color:#666; text-decoration:none;}
+
+.menu{font-weight:bold}
+.menu tr #latestResult{background:url(../images/result_recent.png) right top no-repeat; padding-right:26px; height:26px}
+.menu tr #allResult{background:url(../images/result_all.png) right top no-repeat; padding-right:26px; height:26px}
+.menu tr #studLogin{background:url(../images/stud_login.png) right top no-repeat; padding-right:26px; height:26px}
+.menu tr #passwordGet{background:url(../images/stud_login.png) right top no-repeat; padding-right:26px; height:26px}
+
+.linkDiv{background-color:#FFF; padding:3px 5px 3px 3px;}
+.linkDiv:hover{background-color:#3c78b6; cursor:pointer; color:#FFF;}
